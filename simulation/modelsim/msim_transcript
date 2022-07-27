@@ -1,0 +1,59 @@
+# Reading C:/intelFPGA_lite/19.1/modelsim_ase/tcl/vsim/pref.tcl
+# do Fourier_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/19.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/PROJEKTY/Sycyf/Nowy\ folder {D:/PROJEKTY/Sycyf/Nowy folder/butterfly_point_2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:26:31 on Jun 26,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/PROJEKTY/Sycyf/Nowy folder" D:/PROJEKTY/Sycyf/Nowy folder/butterfly_point_2.v 
+# -- Compiling module butterfly_point_2
+# 
+# Top level modules:
+# 	butterfly_point_2
+# End time: 09:26:31 on Jun 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/PROJEKTY/Sycyf/Nowy\ folder {D:/PROJEKTY/Sycyf/Nowy folder/butterfly_point_4.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:26:31 on Jun 26,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/PROJEKTY/Sycyf/Nowy folder" D:/PROJEKTY/Sycyf/Nowy folder/butterfly_point_4.v 
+# -- Compiling module butterfly_point_4
+# 
+# Top level modules:
+# 	butterfly_point_4
+# End time: 09:26:31 on Jun 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/PROJEKTY/Sycyf/Nowy\ folder {D:/PROJEKTY/Sycyf/Nowy folder/Fourier.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:26:31 on Jun 26,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/PROJEKTY/Sycyf/Nowy folder" D:/PROJEKTY/Sycyf/Nowy folder/Fourier.v 
+# -- Compiling module Fourier
+# 
+# Top level modules:
+# 	Fourier
+# End time: 09:26:31 on Jun 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.butterfly_point_4
+# vsim work.butterfly_point_4 
+# Start time: 09:26:50 on Jun 26,2020
+# Loading work.butterfly_point_4
+# Loading work.butterfly_point_2
+vsim work.Fourier
+# End time: 09:27:04 on Jun 26,2020, Elapsed time: 0:00:14
+# Errors: 0, Warnings: 0
+# vsim work.Fourier 
+# Start time: 09:27:04 on Jun 26,2020
+# Loading work.Fourier
+# Loading work.butterfly_point_4
+# Loading work.butterfly_point_2
+do testFourier8.do
+# End time: 09:46:31 on Jun 26,2020, Elapsed time: 0:19:27
+# Errors: 0, Warnings: 0

@@ -1,0 +1,23 @@
+module butterfly_2
+(
+	input  x0, 
+	input  x2,
+	
+	output reg a0,
+	output reg a1,
+	
+);
+
+
+	parameter  w02 = 1;
+
+	
+
+always@(*)
+ begin
+		a0 <= x0 + w02*x4;
+		a1 <= x0 - w02*x4;
+ end
+ 
+endmodule 
+

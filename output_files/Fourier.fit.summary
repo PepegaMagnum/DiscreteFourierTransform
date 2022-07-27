@@ -1,0 +1,16 @@
+Fitter Status : Successful - Fri Jun 26 13:00:07 2020
+Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+Revision Name : Fourier
+Top-level Entity Name : Fourier
+Family : Cyclone IV E
+Device : EP4CE15F23C6
+Timing Models : Final
+Total logic elements : 496 / 15,408 ( 3 % )
+    Total combinational functions : 496 / 15,408 ( 3 % )
+    Dedicated logic registers : 0 / 15,408 ( 0 % )
+Total registers : 0
+Total pins : 256 / 344 ( 74 % )
+Total virtual pins : 0
+Total memory bits : 0 / 516,096 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 112 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

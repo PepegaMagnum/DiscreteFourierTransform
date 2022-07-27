@@ -1,0 +1,77 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/PROJEKTY/Sycyf/Nowy folder/simulation/modelsim
+vbutterfly_point_2
+Z1 !s110 1593156391
+!i10b 1
+!s100 3kI[U]SCCGVB=8zJgKnL52
+I:OKWd^YFEh:NURA>oJE<G1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1592983269
+8D:/PROJEKTY/Sycyf/Nowy folder/butterfly_point_2.v
+FD:/PROJEKTY/Sycyf/Nowy folder/butterfly_point_2.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1593156391.000000
+!s107 D:/PROJEKTY/Sycyf/Nowy folder/butterfly_point_2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/PROJEKTY/Sycyf/Nowy folder|D:/PROJEKTY/Sycyf/Nowy folder/butterfly_point_2.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+D:/PROJEKTY/Sycyf/Nowy folder}
+Z7 tCvgOpt 0
+vbutterfly_point_4
+R1
+!i10b 1
+!s100 P4QjPe2PH3EYlWHG0Gezg1
+I_>Uh@4CeM5hRf@bP[>46m2
+R2
+R0
+w1593149679
+8D:/PROJEKTY/Sycyf/Nowy folder/butterfly_point_4.v
+FD:/PROJEKTY/Sycyf/Nowy folder/butterfly_point_4.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/PROJEKTY/Sycyf/Nowy folder/butterfly_point_4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/PROJEKTY/Sycyf/Nowy folder|D:/PROJEKTY/Sycyf/Nowy folder/butterfly_point_4.v|
+!i113 1
+R5
+R6
+R7
+vFourier
+R1
+!i10b 1
+!s100 alNkDX@fQO[2D3@`Z4Wh@0
+I^nG:==5A_e=agkgk@USdj2
+R2
+R0
+w1593155165
+8D:/PROJEKTY/Sycyf/Nowy folder/Fourier.v
+FD:/PROJEKTY/Sycyf/Nowy folder/Fourier.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/PROJEKTY/Sycyf/Nowy folder/Fourier.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/PROJEKTY/Sycyf/Nowy folder|D:/PROJEKTY/Sycyf/Nowy folder/Fourier.v|
+!i113 1
+R5
+R6
+R7
+n@fourier

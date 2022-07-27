@@ -1,0 +1,32 @@
+module butterfly_stage_1
+(
+	input a0,
+	input a1,
+	input a2,
+	input a3,
+	
+	
+	output reg b0,
+	output reg b1,
+	output reg b2,
+	output reg b3
+);
+	wire cona0;
+	wire cona1;
+	wire cona2;
+	wire cona3;
+	
+	
+	
+	butterfly_stage_0 BS0(
+		.a0 (a0)
+	);
+	
+	
+/* always@(x0 or x2 or x4 or x6)
+  begin
+	
+  end*/
+
+endmodule 
+

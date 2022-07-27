@@ -1,0 +1,41 @@
+module Fourier(
+	input [7:0] signal,
+	output z1[3:0] 
+);
+
+
+	parameter w08 = 1;
+	
+	parameter w18r = 5;
+	parameter w18i = -5;
+	
+	parameter w28 = -1;
+	
+	parameter w38r = -5;
+	parameter w38i = 5;
+	
+	wire [2:0]conb0r;
+	wire [2:0]conb0i;
+	
+	wire [2:0]conb1r;
+	wire [2:0]conb1i;
+	
+	wire [2:0]conb2r;
+	wire [2:0]conb2i;
+	
+	wire [2:0]conb3r;
+	wire [2:0]conb3i;
+	
+	wire [2:0]conb4r;
+	wire [2:0]conb4i;
+	
+	wire [2:0]conb5r;
+	wire [2:0]conb5i;
+	
+	wire [2:0]conb6r;
+	wire [2:0]conb6i;
+	
+	wire [2:0]conb7;
+	wire [2:0]conb7;
+	
+	
